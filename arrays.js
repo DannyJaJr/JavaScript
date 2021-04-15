@@ -10,7 +10,9 @@ console.log(elitCoders);
 
 for (let i =0; i < elitCoders.length; i ++) {
     let fullStack = elitCoders[i];
+    let coders = [];
+    coders.push(fullStack);
     console.log(fullStack + " are software Developers");
-
+    
 }
 
